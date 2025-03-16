@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Scoreboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Select a Game</h1>
+    <div class="container">
+        <div class="card" onclick="location.href='{{ url_for('scoreboard', game='Scrabble') }}'">Scrabble</div>
+        <div class="card" onclick="location.href='{{ url_for('scoreboard', game='UNO') }}'">UNO</div>
+    </div>
+</body>
+</html>

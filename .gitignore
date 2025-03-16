@@ -1,0 +1,50 @@
+# Bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Environment variables and secrets
+.env
+*.secret
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+.idea/
+*.iml
+
+# Logs and cache
+logs/
+*.log
+debug.log
+
+# Database and migrations
+*.sqlite3
+*.db
+migrations/
+
+# Deployment files
+instance/
+.DS_Store
+*.bak
+
+# Flask cache
+__pycache__/
+cache/
+
+# Ignore static compiled files (optional)
+staticfiles/
+node_modules/
+
+# Ignore Render, Heroku, Netlify specific files (if needed)
+*.render
+*.heroku
+netlify.toml
